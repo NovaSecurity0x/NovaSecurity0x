@@ -1,0 +1,9 @@
+[
+    {
+        "id": "dom-xss-01",
+        "title": "DOM-Based XSS (Cross-Site Scripting)",
+        "pdf": "dom-xss.pdf",
+        "description": "Explaining the techniques of DOM XSS and how to mitigate them.",
+        "date": "2026-11-1"
+    }
+]
