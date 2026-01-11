@@ -198,7 +198,7 @@ function setupEventListeners() {
                 name: document.getElementById('name').value,
                 email: document.getElementById('email').value,
                 phone: document.getElementById('phone').value,
-                address: document.getElementById('address').value,
+                subject: document.getElementById('subject').value,
                 message: document.getElementById('message').value
             };
 
@@ -212,10 +212,10 @@ function setupEventListeners() {
                         { name: "Name", value: formData.name, inline: true },
                         { name: "Email", value: formData.email, inline: true },
                         { name: "Phone", value: formData.phone, inline: true },
-                        { name: "Address", value: formData.address, inline: false },
+                        { name: "Subject", value: formData.subject, inline: false },
                         { name: "Message", value: formData.message }
                     ],
-                    footer: { text: "ShadowWeb Contact Form" },
+                    footer: { text: "NovaSec Contact Form" },
                     timestamp: new Date().toISOString()
                 }]
             };
